@@ -1,0 +1,64 @@
+// iterating an array with a while loop
+int [] array = {2,17,13,6,22,31,45,66,100,-18};
+
+int count = 0;  //declare a variable counter
+while (count < array.length){
+  int num = array[count];
+  System.out.println(num);
+  count++;
+}
+*****************************************
+// displays paired numbers
+int [] array = {2,17,13,6,22,31,45,66,100,-18};
+
+int count = 0;  //declare a variable counter
+while (count < array.length){
+  int num = array[count];
+  int balance = num % 2;
+    if(balance == 0)
+    System.out.println(num);
+  count++;
+}
+******************************************
+//displays non-paired numbers
+int [] array = {2,17,13,6,22,31,45,66,100,-18};
+
+int count = 0;  //declare a variable counter
+while (count < array.length){
+  int num = array[count];
+  int balance = num % 2;
+    if(balance != 0)
+    System.out.println(num);
+  count++;
+******************************************
+//returns the numbers of the array in reverse order
+int [] array = {2,17,13,6,22,31,45,66,100,-18};
+
+int count = array.length -1;
+while(count >=0){
+  int num = array[count];
+  System.out.println(num);
+  count--;
+}
+******************************************
+
+// display the sum of the numbers of the array
+int[] array = {2, 17, 13, 6, 22, 31, 45, 66, 100, -18};
+
+int count = 0;  //declare a variable counter
+int sum = 0;    //declare a variable sum
+while (count < array.length) {
+  sum += array[count];
+  count++;
+}
+System.out.println(sum);  
+
+*****************************************
+// display the endless loop
+int infinity = 8;
+while(infinite > 0){
+  System.out.println("Infinity"); 
+}
+
+*****************************************
+
