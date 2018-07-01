@@ -56,7 +56,7 @@ System.out.println(sum);
 *****************************************
 // display the endless loop
 int infinity = 8;
-while(infinite > 0){
+while(infinity > 0){
   System.out.println("Infinity"); 
 }
 
